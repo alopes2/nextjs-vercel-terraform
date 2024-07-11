@@ -13,3 +13,8 @@ resource "vercel_project_domain" "andrelopes_vercel" {
   project_id = vercel_project.project.id
   domain     = "totally-unique.vercel.app"
 }
+
+resource "vercel_deployment" "first" {
+  project_id = vercel_project.project.id
+  ref        = "main"
+}
