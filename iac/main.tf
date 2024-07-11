@@ -5,7 +5,7 @@ resource "vercel_project" "project" {
 
   git_repository = {
     type = "github"
-    repo = "{github_account}/{repository}"
+    repo = "alopes2/nextjs-vercel-terraform"
   }
 }
 

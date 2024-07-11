@@ -7,8 +7,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "andre-lopes-iac"
-    key    = "website.tfstate"
+    bucket = "terraform-medium-api-notification"
+    key    = "nextjs_vercel_terraform.tfstate"
   }
 }
 
